@@ -1,11 +1,23 @@
-#headline {
-  font-weight: 800;
-  font-size: 5em;
+body {
+  background-color: rgb(242,250,201);
 }
 
-#subline {
-  font-weight: 800;
+nav {
+  text-align: center;
 }
+  .navs {
+    text-align: center;
+  }
+  #headline {
+    font-weight: 800;
+    font-size: 5em;
+  }
+
+  #subline {
+    font-weight: 800;
+  }
+
+
 
 /*********** Business Card colors ***************
 Front background:
