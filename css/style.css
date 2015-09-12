@@ -1,23 +1,51 @@
 body {
-  background-color: rgb(242,250,201);
+  /*background-color: rgb(242,250,201);*/
 }
 
-nav {
-  text-align: center;
-}
+  .navbar-header {
+    background-color: rgb(237,247,160);
+  }
   .navs {
     text-align: center;
   }
+
+
+  .header {
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Alex Brush', cursive;
+  }
   #headline {
-    font-weight: 800;
-    font-size: 5em;
+    font-size: 7em;
   }
-
   #subline {
-    font-weight: 800;
+    font-size: 3em;
+    color: rgb(2,151,156);
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: .2em 0;
   }
 
+  #myNav {
+      background-color: #fff;
+      border: none;
+  }
+  #toggleName {
+    font-family: 'Alex Brush', cursive;
+    text-transform: capitalize;
+    font-size: 3em;
+    color: black;
+    background-color: #fff;
+}
 
+.navListItem {
+  color: red;
+  text-transform: uppercase;
+}
+
+.picshar {
+  margin: 0 auto;
+}
 
 /*********** Business Card colors ***************
 Front background:
