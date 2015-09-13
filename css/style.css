@@ -1,35 +1,46 @@
-  body a:hover {
-    text-decoration: none;
-  }
+body a:hover {
+  text-decoration: none;
+}
 
-  .header {
-    font-weight: 800;
-    text-align: center;
-    font-family: 'Alex Brush', cursive;
-    width: 100%;
-  }
-  #headline {
-    font-size: 7em;
-    margin-bottom: 0;
-    color: black;
-  }
-  #subline {
-    font-size: 2.5em;
-    color: rgb(2,151,156);
-    padding: .2em 0;
-    margin-top: 0;
-  }
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
 
-  #myNav {
-      background-color: #fff;
-      border: none;
-  }
-  #toggleName {
-    font-family: 'Alex Brush', cursive;
-    text-transform: capitalize;
-    font-size: 3em;
-    color: black;
+
+/**************** Header **************************/
+.header {
+  font-weight: 800;
+  text-align: center;
+  font-family: 'Alex Brush', cursive;
+  width: 100%;
+}
+#headline {
+  font-size: 7em;
+  margin-bottom: 0;
+  color: black;
+}
+#subline {
+  font-size: 2.5em;
+  color: rgb(2,151,156);
+  padding: .2em 0;
+  margin-top: 0;
+}
+
+/**************** End Header **************************/
+
+/**************** Navigation **************************/
+#myNav {
     background-color: #fff;
+    border: none;
+}
+
+#toggleName {
+  font-family: 'Alex Brush', cursive;
+  text-transform: capitalize;
+  font-size: 3em;
+  color: black;
+  background-color: #fff;
 }
 
 #navigation {
@@ -44,7 +55,6 @@
     color: rgb(2,151,156);
   }
 
-
 ul li a {
   text-transform: uppercase;
   font-weight: bold;
@@ -54,18 +64,6 @@ ul li a {
 .navListItem {
   color: red;
 }
-.footer-nav-li {
-  color: rgb(2,151,156);
-}
-.credits {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.15em;
-  letter-spacing: 0.05em;
-  margin-top: 10px;
-}
-
-
 
 .navbar-toggle {
   background-color: rgb(2,151,156);
@@ -79,16 +77,24 @@ ul li a {
   margin: 0 auto;
 }
 
-/*********** Footer ***************/
+/**************** End Navigation *********************/
+
+/******************* Footer **************************/
+
+footer {
+  min-height: 7em;
+  background-color: rgb(71,71,71);
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 20px 0 50px 0;
+}
 
 #footer-name {
   font-weight: 800;
-/*  text-align: center;*/
   font-family: 'Alex Brush', cursive;
   font-size: 3em;
 }
 #footer-title {
-  /*text-align: center;*/
   font-family: 'Alex Brush', cursive;
   font-size: 2em;
 }
@@ -97,20 +103,21 @@ ul li a {
   border-bottom: 1.5px solid #ddd;
 }
 
-
-
-footer {
-  min-height: 7em;
-  background-color: rgb(71,71,71);
-  color: rgb(255,255,255);
-  text-align: center;
-  padding: 20px 0 50px 0;
-/*  font-size: 2.5em;
-  font-weight: 800;
-  text-transform: uppercase;*/
+.footer-nav-li {
+  color: rgb(2,151,156);
 }
 
-/*************************************************/
+.credits {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.15em;
+  letter-spacing: 0.05em;
+  margin-top: 10px;
+}
+
+/***************** End Footer *************************/
+
+/***************** Media Queries *************************/
 
 @media screen and (min-width: 576px) {
 
@@ -119,6 +126,8 @@ footer {
   }
 
 }
+
+/**************** End Media Queries ***********************/
 
 /*********** Business Card colors ***************
 Front background:
@@ -140,4 +149,4 @@ Back pot:
   R: 227;
   G: 233;
   B: 83;
-*************************************************/
+/*************************************************/
