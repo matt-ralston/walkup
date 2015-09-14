@@ -22,7 +22,7 @@ body a:hover {
 }
 #subline {
   font-size: 2.5em;
-  color: rgb(2,151,156);
+  color: #00d089;
   padding: .2em 0;
   margin-top: 0;
 }
@@ -83,7 +83,7 @@ ul li a {
 
 footer {
   min-height: 7em;
-  background-color: rgb(71,71,71);
+  background-color: #00d089;
   color: rgb(255,255,255);
   text-align: center;
   padding: 20px 0 50px 0;
@@ -104,7 +104,7 @@ footer {
 }
 
 .footer-nav-li {
-  color: rgb(2,151,156);
+  color: rgb(228,85,77);
 }
 
 .credits {
@@ -150,3 +150,286 @@ Back pot:
   G: 233;
   B: 83;
 /*************************************************/
+
+
+
+/*contact information*/
+.callbacks_container {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.dhavan{
+  padding:5em 0px;
+  background-color: #00d089;
+  text-align:center;
+}
+.dhavan-bottom p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  width: 84%;
+  line-height: 1.8em;
+  word-spacing: 3px;
+  margin-top: 3em;
+}
+.dhavan-right h3 {
+  color: #e4e4e4;
+  font-size: 1.8em;
+  font-weight: 400;
+  margin: 0px;
+  text-align: left;
+}
+.dhavan-right,.dhavan-left {
+  display: inline-block;
+  vertical-align: middle;
+}
+.dhavan-right {
+  margin-left: 2em;
+}
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+/********contact page******************/
+/*--starts-contact--*/
+.contact{
+  position:relative;
+}
+.contact-top {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  width: 32%;
+  /*border-radius: 50%;*/
+  background: rgba(255, 255, 255, 0.9);
+  height: 74%;
+  padding-top: 6em;
+  text-align: center;
+  border: 1px solid rgba(153, 153, 153, 0.6);
+}
+.contact iframe{
+  width:100%;
+  height:650px;
+}
+.contact-top input[type="text"] {
+  padding: 10px 10px;
+  width: 55%;
+  font-size: 14px;
+  margin: 6px 0px;
+  border: 1px solid #d8d8d8;
+  color: #B7B7B7;
+  background: none;
+  /*background: #ffffff;*/
+  -webkit-appearance: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.contact-top textarea {
+  height: 8em;
+  padding: 10px 0px 0px 10px;
+  resize: none;
+  width: 55%;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  -webkit-appearance: none;
+  margin: 6px 0px;
+  border: 1px solid #d8d8d8;
+  color: #B7B7B7;
+  background: none;
+  /*background: #ffffff;*/
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  outline: none;
+}
+.sub-button {
+  margin-top: 20px;
+}
+.contact-top input[type="submit"]{
+  background:url(../images/yes.png) no-repeat;
+  width:66px;
+  height:67px;
+  display:block;
+  border:none;
+  outline:none;
+  -webkit-appearance: none;
+  margin: 0 auto;
+}
+/*Different Devices*/
+@media only screen and (max-width: 1366px){
+.contact iframe {
+  height: 600px;
+}
+.contact-top {
+  /*width: 50%;*/
+  height: 66%;
+  padding-top: 1em;
+}
+}
+@media only screen and (max-width: 1280px){
+.contact-top {
+  height: 70%;
+  top: 14%;
+}
+.contact-top input[type="text"] {
+  width: 60%;
+}
+.contact-top textarea {
+  width: 60%;
+}
+}
+@media only screen and (max-width: 1024px){
+.dhavan-right h3 {
+  font-size: 1.6em;
+}
+.dhavan-bottom p {
+  font-size: 17px;
+  width: 95%;
+}
+
+.contact iframe {
+  height: 530px;
+}
+.contact-top {
+  height: 74%;
+  width: 40%;
+  left: 30%;
+  padding-top: 4em;
+}
+.contact-top input[type="text"],.contact-top textarea{
+  width: 65%;
+}
+.sub-button {
+  margin-top: 10px;
+}
+@media only screen and (max-width: 768px){
+.dhavan-bottom p {
+  font-size: 16px;
+  width: 100%;
+}
+.dhavan {
+  padding: 3em 0px;
+}
+.contact iframe {
+  height: 400px;
+}
+.contact-top {
+  padding-top: 3em;
+}
+.contact-top input[type="submit"] {
+  width: 50px;
+  height: 50px;
+  background-size: 80%;
+}
+.contact-top input[type="text"], .contact-top textarea {
+  width: 60%;
+  padding: 5px 8px;
+  font-size: 13px;
+  margin: 3px 0px;
+}
+}
+@media (max-width: 640px){
+.dhavan-right h3 {
+  font-size: 1.4em;
+}
+.dhavan {
+  padding: 2em 0px;
+}
+.dhavan-bottom p {
+  font-size: 15px;
+  width: 100%;
+  margin-top: 2em;
+  line-height: 1.7em;
+}
+
+.contact iframe {
+  height: 330px;
+}
+.contact-top textarea {
+  height: 6em;
+}
+.contact-top {
+  padding-top: 2em;
+}
+.sub-button {
+  margin-top: 3px;
+}
+}
+@media only screen and (max-width: 480px){
+.dhavan-left img {
+  width: 85%;
+}
+.dhavan-right img {
+  width: 85%;
+}
+.dhavan-right {
+  margin-left: 0em;
+}
+.dhavan-bottom p {
+  margin-top: 1.2em;
+}
+
+.contact iframe {
+  height: 300px;
+}
+.contact-top {
+  height: 84%;
+  width: 58%;
+  top: 7%;
+  left: 23%;
+}
+.contact-top {
+  padding-top: 2.5em;
+}
+}
+@media (max-width:320px){
+.dhavan-left img {
+  width: 70%;
+}
+.dhavan-right h3 {
+  font-size: 1.2em;
+  text-align: center;
+}
+.dhavan-right img {
+  width: 70%;
+}
+.dhavan-right {
+  margin-left: 0em;
+}
+.dhavan-bottom p {
+  margin-top: 1.2em;
+  overflow: hidden;
+  height: 82px;
+}
+.contact iframe {
+  height: 300px;
+}
+.contact iframe {
+  height: 265px;
+}
+.contact-top {
+  width: 76%;
+  height: 84%;
+  left: 13%;
+  top: 7%;
+  padding-top: 2em;
+}
+.contact-top input[type="text"], .contact-top textarea {
+  width: 62%;
+  padding: 3px 8px;
+  font-size: 12px;
+}
+.contact-top input[type="submit"] {
+  width: 45px;
+  height: 45px;
+  background-size: 74%;
+}
+}
+/*--ends-contact--*/
