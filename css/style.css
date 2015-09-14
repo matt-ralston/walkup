@@ -109,7 +109,7 @@ footer {
 
 .credits {
   text-transform: uppercase;
-  font-weight: bold;
+  /*font-weight: bold;*/
   font-size: 1.15em;
   letter-spacing: 0.05em;
   margin-top: 10px;
@@ -150,3 +150,107 @@ Back pot:
   G: 233;
   B: 83;
 /*************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************** Home Page About************************/
+.btn-primary {
+  font-size: 3rem;
+  background-color: rgb(228,85,77);
+  border-color: rgb(200,85,77);
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem 3rem;
+
+  transition: background-color 300ms ease-out;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+}
+
+.btn-primary:hover {
+  background-color: rgb(200,85,77);
+  border-color: rgb(200,85,77);
+/*  opacity: .7;*/
+}
+
+
+
+
+
+
+
+/***************** Home Page About************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
