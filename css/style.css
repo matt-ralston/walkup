@@ -126,6 +126,14 @@ footer {
 
 }
 
+@media screen and (min-width: 992px) {
+
+  div#client-quote {
+    margin-top: 5em;
+  }
+
+}
+
 /**************** End Media Queries ***********************/
 
 /*********** Business Card colors ***************
@@ -198,7 +206,7 @@ Back pot:
 
 /***************** Home Page About************************/
 #about-row {
-  margin: 5% auto;
+  margin: 2.5% auto;
   text-align: center;
 }
 
@@ -206,6 +214,7 @@ Back pot:
   font-weight: bold;
   text-transform: uppercase;
 }
+
 #client-sig {
   font-family: 'Alex Brush', cursive;
   font-size: 2em;
@@ -225,6 +234,10 @@ Back pot:
   padding-bottom: 5%;
   padding-left: 3%;
   padding-right: 3%;
+}
+
+#not-sure {
+  font-size: 1.55em;
 }
 
 .btn-primary {
