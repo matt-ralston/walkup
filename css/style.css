@@ -850,8 +850,34 @@ Back pot:
 /***************** Home Page About************************/
 
 
+/***************** About ************************/
+
+#sheila-pic {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+#about-sig {
+  border-top: 2px solid rgb(71,71,71);
+  border-bottom: 2px solid rgb(71,71,71);
+  margin-top: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Alex Brush', cursive;
+  font-size: 2em;
+  color: #333;
+}
 
 
+@media screen and (max-width: 767px) {
+
+  #about-sig {
+    margin-top: 20px;
+  }
+
+}
+
+/***************** About ************************/
 
 
 
