@@ -169,7 +169,7 @@ Back pot:
 }
 .dhavan{
   padding:5em 0px;
-  background-color: #00d089;
+  background-color: rgb(2,151,156);
   text-align:center;
 }
 .dhavan-bottom p {
@@ -188,6 +188,7 @@ Back pot:
   font-weight: 400;
   margin: 0px;
   text-align: left;
+  font-family: 'Alex Brush', cursive;
 }
 .dhavan-right,.dhavan-left {
   display: inline-block;
