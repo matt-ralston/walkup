@@ -343,6 +343,20 @@ Back pot:
   font-size: 13px;
   margin: 3px 0px;
 }
+.team-gallery {
+  padding: 2em 0px 3em 0px;
+}
+.team-gallery-top p{
+  width: 70%;
+}
+.team-gallery-top h3{
+  font-size: 2.2em;
+}
+.team-left-top {
+  width: 50%;
+  float: left;
+  margin: 10px 0px;
+}
 }
 @media (max-width: 640px){
 .dhavan-right h3 {
@@ -370,6 +384,12 @@ Back pot:
 .sub-button {
   margin-top: 3px;
 }
+.team-gallery-top p{
+  width: 85%;
+}
+.team-left-bottom h4 {
+  font-size: 18px;
+}
 }
 @media only screen and (max-width: 480px){
 .dhavan-left img {
@@ -396,6 +416,21 @@ Back pot:
 }
 .contact-top {
   padding-top: 2.5em;
+}
+.team-gallery {
+  padding: 8px 0px 2em 0px;
+}
+.team-gallery-top h3{
+  font-size: 1.8em;
+}
+.team-gallery-top p{
+  width: 95%;
+}
+.team-gallery-top {
+  margin-bottom: 1em;
+}
+.team-left-bottom {
+  padding: 12px 0px;
 }
 }
 @media (max-width:320px){
@@ -440,6 +475,31 @@ Back pot:
   height: 45px;
   background-size: 74%;
 }
+.team-gallery-top h3{
+  font-size: 1.4em;
+}
+.team-gallery-top p{
+  width: 100%;
+  overflow: hidden;
+  height: 46px;
+  font-size: 15px;
+}
+.team-gallery-top {
+  margin-bottom: 1em;
+}
+.team-left-top {
+  width: 100%;
+  margin: 7px 0px;
+}
+.team-left-bottom h4 {
+  font-size: 17px;
+}
+.team-left-bottom p {
+  font-size: 14px;
+}
+.bton {
+  margin: 1em 0px 7px 0px;
+}
 }
 /*--ends-contact--*/
 
@@ -450,16 +510,71 @@ Back pot:
 #textcolor {
   color: #FFFFFF;
 }
-
-
-
-
-
-
-
-
-
-
+/*village reader page*/
+.team-gallery {
+  background: #f5f5f5;
+  padding:3em 0px
+}
+.team-gallery-top h3{
+  color:#4c505d;
+  font-size:2.5em;
+  margin:0px 0px 10px 0px;
+  font-weight:700;
+  text-align:center;
+}
+.team-gallery-top p{
+  color: #4c505d;
+  font-size: 16px;
+  font-weight: 400;
+  width: 79%;
+  margin: 0 auto;
+  text-align: center;
+}
+.team-gallery-top{
+  text-align:center;
+  margin-bottom: 2em;
+}
+.team-left-top img{
+  width:100%;
+}
+.team-left-top{
+  text-align:center;
+}
+.team-left-bottom h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #4c505d;
+  margin: 0px 0px 5px 0px;
+}
+.team-left-bottom p{
+  font-size: 15px;
+  color: #4c505d;
+}
+.team-left-bottom {
+  background: #fff;
+  padding: 20px 0px;
+}
+.bton{
+  margin: 1.2em 0px 7px 0px;
+}
+.bton a{
+  color:#fff;
+  background:#55adb7;
+  padding:6px 20px;
+  border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  outline: none;
+}
+.bton a:hover{
+  background:#00d089;
+  text-decoration:none;
+  transition: all 0.3s ease; 
+         -webkit-transition: all 0.3s ease;
+         -moz-transition: all 0.3s ease;
+         -o-transition: all 0.3s ease;  
+}
 
 
 
