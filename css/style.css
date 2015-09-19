@@ -50,9 +50,16 @@ body a:hover {
     vertical-align: middle;
     padding: 0;
   }
-  .nav li a:hover {
+  .nav li a.selected, .nav li a:hover {
     color: rgb(2,151,156);
+    background-color: #eee;
   }
+
+/*  .nav li a.selected {
+    color: rgb(2,151,156);
+    background-color: #eee;
+    padding: 10px 15px;
+  }*/
 
 ul li a {
   text-transform: uppercase;
