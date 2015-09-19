@@ -182,14 +182,14 @@ Back pot:
   word-spacing: 3px;
   margin-top: 3em;
 }
-.dhavan-right h3 {
+/*.dhavan-right h3 {
   color: #e4e4e4;
   font-size: 1.8em;
   font-weight: 400;
   margin: 0px;
   text-align: left;
   font-family: 'Alex Brush', cursive;
-}
+}*/
 .dhavan-right,.dhavan-left {
   display: inline-block;
   vertical-align: middle;
@@ -270,6 +270,19 @@ Back pot:
   outline:none;
   -webkit-appearance: none;
   margin: 0 auto;
+}
+#contact-sig {
+  color: #fff;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+#contact-row {
+  /*margin: 2.5% auto;*/
+  text-align: center;
+  background-color: rgb(2,151,156);
+  color: #fff;
+  padding: 2em 0;
+  margin-top: 0;
 }
 /*Different Devices*/
 @media only screen and (max-width: 1366px){
@@ -571,10 +584,10 @@ Back pot:
 .bton a:hover{
   background:#00d089;
   text-decoration:none;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
          -webkit-transition: all 0.3s ease;
          -moz-transition: all 0.3s ease;
-         -o-transition: all 0.3s ease;  
+         -o-transition: all 0.3s ease;
 }
 
 
@@ -973,14 +986,14 @@ Back pot:
   max-width: 200px;
 }
 
-#about-sig {
+.about-sig {
   border-top: 2px solid rgb(71,71,71);
   border-bottom: 2px solid rgb(71,71,71);
   margin-top: 0px;
   padding-bottom: 10px;
   padding-top: 10px;
   font-family: 'Alex Brush', cursive;
-  font-size: 2em;
+  font-size: 2.25em;
   color: #333;
 }
 
