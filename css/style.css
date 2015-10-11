@@ -2,6 +2,10 @@ body a:hover {
   text-decoration: none;
 }
 
+p {
+  font-size: 1.25em;
+}
+
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
