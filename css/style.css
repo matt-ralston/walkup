@@ -209,79 +209,101 @@ Back pot:
   margin-left: 2em;
 }
 .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
-
-/********contact page******************/
-/*--starts-contact--*/
-.contact{
-  position:relative;
-}
-.contact-top {
-  position: absolute;
-  top: 30%;
-  left: 35%;
-  width: 32%;
-  /*border-radius: 50%;*/
-  background: rgba(255, 255, 255, 0.9);
-  height: 74%;
-  padding-top: 6em;
-  text-align: center;
-  border: 1px solid rgba(153, 153, 153, 0.6);
-}
-.contact iframe{
+.video iframe{
   width:100%;
   height:650px;
 }
-.contact-top input[type="text"] {
-  padding: 10px 10px;
-  width: 55%;
-  font-size: 14px;
-  margin: 6px 0px;
-  border: 1px solid #d8d8d8;
-  color: #B7B7B7;
-  background: none;
-  /*background: #ffffff;*/
-  -webkit-appearance: none;
-  outline: none;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
+/********contact page******************/
+/*--starts-contact--*/
+.contact {
+  margin-bottom: 8em;
 }
-.contact-top textarea {
-  height: 8em;
-  padding: 10px 0px 0px 10px;
+.content_middle_bottom {
+  padding: 8em 0 0 0;
+}
+.tz-title-3 {
+  display: block;
+  color: #A7A9AC;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 24px 0;
+  position: relative;
+  text-align: center;
+  letter-spacing: 0px;
+  font-family: 'Signika', sans-serif;
+  font-style: italic;
+}
+.content_middle_bottom h4 {
+  color: #555;
+  font-size: 1em;
+  line-height: 1.5em;
+  width: 50%;
+  margin: 0 auto 3em auto;
+  text-align: center;
+  font-weight: 400;
+}
+.grid_2 input[type="text"] {
+  padding: 15px 0;
+  width: 90%;
+  font-size: 1em;
+  margin: 10px 0;
+  color: #999;
+  background: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid #D4D4D4;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.grid_2 textarea {
+  background: none;
+  display: block;
+  width: 90%;
+  padding: 15px 0;
+  border-bottom: 1px solid #D4D4D4;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  margin: 3px 0;
+  font-size: 1em;
+  color: #999;
+  height: 100px;
   resize: none;
-  width: 55%;
-  font-size: 14px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+}
+.map iframe {
+  border: none;
+  width: 100%;
+  height: 328px;
+}
+.grid_2 input[type="submit"] {
   -webkit-appearance: none;
-  margin: 6px 0px;
-  border: 1px solid #d8d8d8;
-  color: #B7B7B7;
-  background: none;
-  /*background: #ffffff;*/
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
+  cursor: pointer;
+  border: none;
   outline: none;
+  background: none;
+  color: #fff;
+  background: #b9cfed;
+  padding: 10px 40px;
+  margin-top: 2em;
+    transition:0.5s all;
+  -webkit-transition:0.5s all;
+  -moz-transition:0.5s all;
+  -o-transition:0.5s all;
+  -ms-transition:0.5s all;
 }
-.sub-button {
-  margin-top: 20px;
+.grid_2 input[type="submit"]:hover {
+  background: #000;
+    transition:0.5s all;
+  -webkit-transition:0.5s all;
+  -moz-transition:0.5s all;
+  -o-transition:0.5s all;
+  -ms-transition:0.5s all;
 }
-.contact-top input[type="submit"]{
-  background:url(../images/yes.png) no-repeat;
-  width:66px;
-  height:67px;
-  display:block;
-  border:none;
-  outline:none;
-  -webkit-appearance: none;
-  margin: 0 auto;
-}
+
 #contact-sig {
   color: #fff;
   border-top: 2px solid #fff;
@@ -297,28 +319,17 @@ Back pot:
 }
 /*Different Devices*/
 @media only screen and (max-width: 1366px){
-.contact iframe {
+.video iframe {
   height: 600px;
 }
-.contact-top {
-  /*width: 50%;*/
-  height: 66%;
-  padding-top: 1em;
 }
-}
+
 @media only screen and (max-width: 1280px){
-.contact-top {
-  height: 70%;
-  top: 14%;
-}
-.contact-top input[type="text"] {
-  width: 60%;
-}
-.contact-top textarea {
-  width: 60%;
-}
 }
 @media only screen and (max-width: 1024px){
+  .video iframe {
+  height: 530px;
+}
 .dhavan-right h3 {
   font-size: 1.6em;
 }
@@ -327,23 +338,20 @@ Back pot:
   width: 95%;
 }
 
-.contact iframe {
-  height: 530px;
+.content_middle_bottom {
+  padding: 3em 0 0 0;
 }
-.contact-top {
-  height: 74%;
-  width: 40%;
-  left: 30%;
-  padding-top: 4em;
-}
-.contact-top input[type="text"],.contact-top textarea{
-  width: 65%;
+.contact {
+  margin-bottom: 4em;
 }
 .sub-button {
   margin-top: 10px;
 }
 }
 @media only screen and (max-width: 768px){
+  .video iframe {
+  height: 400px;
+}
 .dhavan-bottom p {
   font-size: 16px;
   width: 100%;
@@ -384,6 +392,9 @@ Back pot:
 }
 }
 @media (max-width: 640px){
+  .video iframe {
+  height: 330px;
+}
 .dhavan-right h3 {
   font-size: 1.4em;
 }
@@ -417,6 +428,9 @@ Back pot:
 }
 }
 @media only screen and (max-width: 480px){
+  .video iframe {
+  height: 300px;
+}
 .dhavan-left img {
   width: 85%;
 }
@@ -430,17 +444,10 @@ Back pot:
   margin-top: 1.2em;
 }
 
-.contact iframe {
-  height: 300px;
-}
-.contact-top {
-  height: 84%;
-  width: 58%;
-  top: 7%;
-  left: 23%;
-}
-.contact-top {
-  padding-top: 2.5em;
+.content_middle_bottom h4 {
+    font-size: .9em;
+    line-height: 1.8em;
+    width: 100%;
 }
 .team-gallery {
   padding: 8px 0px 2em 0px;
@@ -459,6 +466,12 @@ Back pot:
 }
 }
 @media (max-width:320px){
+  .video iframe {
+  height: 300px;
+}
+.video iframe {
+  height: 265px;
+}
 .dhavan-left img {
   width: 70%;
 }
@@ -477,29 +490,21 @@ Back pot:
   overflow: hidden;
   height: 82px;
 }
-.contact iframe {
-  height: 300px;
-}
-.contact iframe {
-  height: 265px;
-}
-.contact-top {
-  width: 76%;
-  height: 84%;
-  left: 13%;
-  top: 7%;
-  padding-top: 2em;
-}
-.contact-top input[type="text"], .contact-top textarea {
-  width: 62%;
-  padding: 3px 8px;
-  font-size: 12px;
-}
-.contact-top input[type="submit"] {
-  width: 45px;
-  height: 45px;
-  background-size: 74%;
-}
+.content_middle_bottom {
+    padding: 1em 0 0 0;
+  }
+  .grid_2 input[type="text"] {
+    width: 100%;
+  }
+  .map {
+    margin-top: 3em;
+  }
+  .map iframe {
+    height: 229px;
+  }
+  .contact {
+    margin-bottom: 2em;
+  }
 .team-gallery-top h3{
   font-size: 1.4em;
 }
@@ -553,7 +558,7 @@ Back pot:
   font-weight: 400;
   width: 79%;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 .team-gallery-top{
   text-align:center;
