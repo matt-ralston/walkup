@@ -84,6 +84,8 @@ ul li a {
 
 .picshar {
   margin: 0 auto;
+  max-width: 1000px;
+  max-height: 675px;
 }
 
 /**************** End Navigation *********************/
