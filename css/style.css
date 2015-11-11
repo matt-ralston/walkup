@@ -139,13 +139,6 @@ footer {
 
 }
 
-@media screen and (min-width: 992px) {
-
-  div.client-quote {
-    margin-top: 5em;
-  }
-
-}
 
 /**************** End Media Queries ***********************/
 
@@ -546,10 +539,14 @@ Back pot:
   background: #f5f5f5;
   padding:3em 0px
 }
+.team-gallery-top h4{
+  color:#4c505d;
+  margin-bottom: 20px;
+}
 .team-gallery-top h3{
   color:#4c505d;
   font-size:2.5em;
-  margin:0px 0px 10px 0px;
+  margin:30px 0px 20px 0px;
   font-weight:700;
   text-align:center;
 }
@@ -608,8 +605,17 @@ Back pot:
 }
 
 
-
-
+.list {
+  list-style: none;
+  font-size: 1.2em;
+  line-height: 2.5em;
+  color: rgb(2,151,156);
+  font-weight: bold;
+  margin-top: 2em;
+}
+.capitalize {
+  text-transform: capitalize;
+}
 
 
 
@@ -945,11 +951,18 @@ Back pot:
   text-transform: uppercase;
 }
 
+.client-quote {
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 2.5em;
+}
+
 #client-sig {
   font-family: 'Alex Brush', cursive;
   font-size: 2em;
   color: #333;
 }
+
  .body-text {
   font-size: 1.125em;
   line-height: 1.7em;
