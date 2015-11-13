@@ -116,9 +116,10 @@
     <div class="col-sm-8 grid_2">
        <h3>Say Hello!</h3>
          <form action="//formspree.io/10088587@qq.com" method="POST">
-       <input type="text" class="text" name="name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-       <input type="text" class="text" name="_replyto" value="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}">
-       <textarea value="Message" name="name"  type="submit" onfocus="this.value= '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+       <input type="text" class="text" name="name" value="Name" onfocus="if (this.value == 'Name') {this.value = ''};" onblur="if (this.value == '') {this.value = 'Name';}">
+       <input type="text" class="text" name="_replyto" value="Email Address" onfocus="if (this.value == 'Email Address') {this.value = ''};" onblur="if (this.value == '') {this.value = 'Email Address';}">
+       <textarea value="Message" name="name"  type="submit"
+       onfocus="if (this.value == 'Message') {this.value = ''};" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
        <input name="submit" type="submit" id="formButton" value="Send Message">
       </form>
       </div>
