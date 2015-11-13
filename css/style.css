@@ -131,6 +131,18 @@ footer {
 
 /***************** Media Queries *************************/
 
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+  .footer-nav-li {
+  font-size: 13px;
+  }
+
+}
+
+
+
+
 @media screen and (min-width: 576px) {
 
   #toggleName {
