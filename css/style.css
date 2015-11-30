@@ -558,7 +558,7 @@ Back pot:
 .team-gallery-top h3{
   color:#4c505d;
   font-size:2.5em;
-  margin:30px 0px 20px 0px;
+  margin:30px 0px 0px 0px;
   font-weight:700;
   text-align:center;
 }
@@ -572,7 +572,7 @@ Back pot:
 }
 .team-gallery-top{
   text-align:center;
-  margin-bottom: 2em;
+  /*margin-bottom: 2em;*/
 }
 .team-left-top img{
   width:100%;
@@ -623,13 +623,19 @@ Back pot:
   line-height: 2.5em;
   color: rgb(2,151,156);
   font-weight: bold;
-  margin-top: 2em;
 }
 .capitalize {
   text-transform: capitalize;
 }
 
-
+#duties {
+  list-style: none;
+  font-size: 1.5em;
+  line-height: 2.5em;
+  color: rgb(2,151,156);
+  font-weight: bold;
+  text-align: center;
+}
 
 
 
@@ -965,7 +971,7 @@ Back pot:
 
 .client-quote {
   text-align: center;
-  margin-bottom: 2em;
+  /*margin-bottom: 2em;*/
   margin-top: 2.5em;
 }
 
@@ -973,6 +979,7 @@ Back pot:
   font-family: 'Alex Brush', cursive;
   font-size: 2em;
   color: #333;
+  margin-top: 0px;
 }
 
  .body-text {
@@ -1085,10 +1092,19 @@ Back pot:
 /***************** About ************************/
 
 
+.hong-kong {
+  font-size: .5em;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 
 
-
-
+.dreams {
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  /*margin-top: -20px;*/
+}
 
 
 
